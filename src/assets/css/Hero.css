@@ -22,11 +22,12 @@
 
 /* Box bên trái giữ nguyên vị trí */
 .hero-box {
-  background: rgba(78, 78, 78, 0.45);
-  max-width: 100%;
+  /* background: rgba(78, 78, 78, 0.45); */
+  max-width: 70%;
   margin-top: 50vh;
-  margin-left: 5vh;
-  backdrop-filter: blur(8px);
+  margin-left: 10vh;
+  margin-bottom: 5vh;
+  /* backdrop-filter: blur(8px); */
   color: #222;
   border-radius: 5px;
 }
@@ -46,12 +47,22 @@
 .hero-btn:hover {
   transform: scale(1.05);
 }
+/* Đường phân cách dọc */
+.stat-item {
+  border-right: 3px solid rgb(255, 255, 255);
+}
+
+.stat-item:last-child {
+  border-right: none;
+}
 
 /* Box bên phải */
 .hero-stats-box {
-  background: rgba(78, 78, 78, 0.45);
+  /* background: rgba(78, 78, 78, 0.45); */
   border-radius: 15px;
-  backdrop-filter: blur(8px);
+  margin-right: 5vh;
+  margin-top: 75vh;
+  /* backdrop-filter: blur(8px); */
   color: #fff;
 }
 

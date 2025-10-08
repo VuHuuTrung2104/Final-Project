@@ -68,8 +68,8 @@ function App() {
                 <section id="home"><Hero /></section>
                 <section id="about"><Instructors /></section>
                 <section id="service"><Courses /><Levels /></section>
-                <section id="pricing"><AppPromo /></section>
                 <section id="blog"><Community /></section>
+                <section id="pricing"><AppPromo /></section>
                 <section id="blog"><Footer /></section>
               </>
             }
