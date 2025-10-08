@@ -6,10 +6,11 @@ import Hero from "./components/Hero";
 import Courses from "./components/Courses";
 import Levels from "./components/Levels";
 import Instructors from "./components/Instructors";
-import Community from "./components/Community";
 import AppPromo from "./components/AppPromo";
 import SignupPage from "./components/SignupPage";
 import LoginPage from "./components/LoginPage";
+import Gallery from "./components/Gallery";
+import Pricing from "./components/Pricing";
 
 // Student
 import StudentLayout from "./components/student/StudentLayout";
@@ -67,8 +68,10 @@ function App() {
               <>
                 <section id="home"><Hero /></section>
                 <section id="about"><Instructors /></section>
-                <section id="service"><Courses /><Levels /></section>
-                <section id="blog"><Community /></section>
+                <section id="service"><Levels /></section>
+                <section id="service"><Courses /></section>
+                <section id="gallery"><Gallery /></section>
+                <section id="pricing"><Pricing /></section>
                 <section id="pricing"><AppPromo /></section>
                 <section id="blog"><Footer /></section>
               </>

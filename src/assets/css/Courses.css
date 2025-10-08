@@ -1,31 +1,103 @@
-/* Section khoảng cách */
 .courses-section {
   padding: 60px 0;
 }
 
-/* Card mặc định (ảnh) */
+.scroll-wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  margin: 0 -8px;
+}
+
+.scroll-wrapper::-webkit-scrollbar {
+  display: none; /* ẩn thanh cuộn */
+}
+
 .course-card {
+  position: relative;
+  width: 100%;
+  height: 90%;
   border-radius: 15px;
   overflow: hidden;
   cursor: pointer;
   transition: transform 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
 }
 
-.course-card:hover {
-  transform: translateY(-5px);
+.course-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
 }
 
-/* Overlay chữ trên ảnh */
-.course-card .card-img-overlay {
-  background: linear-gradient(to top, rgba(0,0,0,0.6), transparent);
-  border-radius: 15px;
+/* Caption khói mờ bo góc */
+.course-caption {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 16px 36px;
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  color: #fff;
+  font-weight: 600;
+  font-size: 24px;
+  border-radius: 30px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 2;
 }
 
-/* Card màu nâu khi active */
-.course-card-active {
-  background-color: #9c7a5f;
-  border-radius: 15px;
-  color: white;
+/* Overlay ẩn */
+.course-overlay {
+  position: absolute;
+  left: 0;
+  bottom: -100%;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(30,30,30,0.9);
+  color: #fff;
+  padding: 20px;
+  opacity: 0;
+  transition: all 0.4s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  z-index: 3;
+}
+
+/* Khi active */
+.course-card.active img {
+  transform: scale(1.05);
+}
+
+.course-card.active .course-overlay {
+  bottom: 0;
+  opacity: 1;
+}
+
+/* Nút điều hướng */
+.circle-btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid #666;
+  background: transparent;
+  color: #333;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.circle-btn:hover {
+  background: #333;
+  color: #fff;
+  border-color: #333;
 }

@@ -1,5 +1,5 @@
 import "../assets/css/Levels.css";
-import bgImg from "../assets/img/Banner/2.png";
+import LevelsIMG from "../assets/img/Levels/1.jpg";
 
 function Levels() {
     const features = [
@@ -11,8 +11,8 @@ function Levels() {
         },
         {
             id: 2,
-            title: "Yoga Mọi Lúc, Mọi Nơi",
-            text: "Phiên bản di động giúp bạn học tập ở bất cứ đâu, bất cứ lúc nào.",
+            title: "Tiện Nghi & Hiện Đại",
+            text: "Phòng tập được trang bị thảm yoga, gương, hệ thống ánh sáng và âm nhạc, mang lại không gian thoải mái và chuyên nghiệp.",
             icon: "bi-phone"
         },
         {
@@ -31,7 +31,7 @@ function Levels() {
 
     return (
         <section className="levels-section" style={{
-            backgroundImage: `url(${bgImg})`,
+            backgroundImage: `url(${LevelsIMG})`,
             backgroundSize: "cover",
             backgroundPosition: "center",
             backgroundRepeat: "no-repeat"
