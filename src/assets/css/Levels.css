@@ -1,0 +1,33 @@
+.levels-section {
+    height: 100vh;
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.levels-overlay {
+    background: rgba(0, 0, 0, 0.5);
+    /* overlay mờ */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.levels-card {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(8px);
+    border-radius: 12px;
+    padding: 20px;
+    height: 100%;
+    transition: transform 0.3s ease;
+}
+
+.levels-card:hover {
+    transform: translateY(-5px);
+}

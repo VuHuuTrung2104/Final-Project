@@ -1,0 +1,67 @@
+/* src/assets/css/StudentDashboard.css */
+
+/* General */
+.student-dashboard {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Tabs */
+.student-dashboard .nav-pills .nav-link {
+    border-radius: 20px;
+    padding: 8px 20px;
+    font-weight: 500;
+    transition: 0.2s;
+}
+
+.student-dashboard .nav-pills .nav-link.active {
+    background-color: #198754;
+    /* xanh Bootstrap */
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Cards */
+.student-dashboard .card {
+    border: none;
+    border-radius: 12px;
+    transition: transform 0.2s;
+}
+
+.student-dashboard .card:hover {
+    transform: translateY(-3px);
+}
+
+/* Table */
+.student-dashboard table {
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.student-dashboard th {
+    background-color: #f8f9fa;
+    font-weight: bold;
+}
+
+/* Membership */
+.student-dashboard .membership-status {
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 8px 12px;
+    border-radius: 8px;
+}
+
+.student-dashboard .membership-status.active {
+    background: rgba(25, 135, 84, 0.1);
+    color: #198754;
+}
+
+.student-dashboard .membership-status.expired {
+    background: rgba(220, 53, 69, 0.1);
+    color: #dc3545;
+}
+
+/* Buttons */
+.student-dashboard .btn {
+    border-radius: 8px;
+    font-weight: 500;
+}

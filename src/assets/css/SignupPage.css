@@ -1,0 +1,28 @@
+.signup-wrapper {
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e9f0ff;
+    padding: 20px;
+}
+
+.signup-card {
+    width: 90%;
+    max-width: 1000px;
+    background: #fff;
+    border-radius: 20px;
+}
+
+.signup-card img {
+    object-fit: cover;
+    height: 100%;
+}
+
+.btn-outline-secondary {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}

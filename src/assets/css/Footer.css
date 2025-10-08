@@ -1,0 +1,29 @@
+.footer-section {
+    background: #fff;
+    border: 1px solid #dce5dd;
+    border-radius: 20px 20px 0 0;
+    color: #2c3e2e;
+}
+
+.footer-logo {
+    font-size: 1.5rem;
+}
+
+.footer-section h6 {
+    margin-bottom: 0.5rem;
+    color: #1a3d2b;
+}
+
+.footer-nav span {
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+.footer-nav span:hover {
+    color: #2c7a4b;
+}
+
+.footer-section hr {
+    margin: 1.5rem 0;
+    border-color: #ccc;
+}

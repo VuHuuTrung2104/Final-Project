@@ -1,0 +1,47 @@
+.custom-navbar {
+  margin: 15px auto;
+  width: 70%;
+  border-radius: 35px;
+  padding: .7rem 0.5rem;
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+
+  /* Glass mặc định */
+  background: rgba(78, 78, 78, 0.45);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.custom-navbar.scrolled {
+  background: rgba(63, 63, 63, 0.95); /* màu bg-dark khi scroll */
+  backdrop-filter: none;
+  border: none;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.custom-navbar .nav-link {
+  color: #fff !important;
+  margin: 0 8px;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.custom-navbar .nav-link:hover {
+  color: #f8d775 !important;
+}
+
+.custom-navbar .navbar-brand {
+  color: #fff !important;
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+
+.custom-navbar .btn {
+  border-width: 2px;
+  font-weight: 600;
+}
+
+.custom-navbar .btn:hover {
+  background: #fff;
+  color: #000;
+}

@@ -1,0 +1,8 @@
+.app-promo {
+    padding: 100px 0;
+    /* nền loang loang */
+    background:
+        radial-gradient(circle at top left, #e8f9f1 0%, transparent 40%),
+        radial-gradient(circle at bottom right, #dff7ec 0%, transparent 50%),
+        #ffffff;
+}

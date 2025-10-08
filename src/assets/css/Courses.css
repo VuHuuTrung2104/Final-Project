@@ -1,0 +1,31 @@
+/* Section khoảng cách */
+.courses-section {
+  padding: 60px 0;
+}
+
+/* Card mặc định (ảnh) */
+.course-card {
+  border-radius: 15px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.course-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Overlay chữ trên ảnh */
+.course-card .card-img-overlay {
+  background: linear-gradient(to top, rgba(0,0,0,0.6), transparent);
+  border-radius: 15px;
+}
+
+/* Card màu nâu khi active */
+.course-card-active {
+  background-color: #9c7a5f;
+  border-radius: 15px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
