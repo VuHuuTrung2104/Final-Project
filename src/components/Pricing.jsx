@@ -7,7 +7,7 @@ function Pricing() {
   return (
     <section className="pricing-section py-5">
       <div className="container text-center">
-        <h2 className="fw-bold text-success mb-3">
+        <h2 className="fw-bold text-dark mb-3">
           Chọn Lộ Trình Sức Khỏe Ngay Tại Nhà
         </h2>
         <p className="mb-4">
@@ -24,7 +24,7 @@ function Pricing() {
             <input
               className="form-check-input"
               type="checkbox"
-              checked={billing === "nam"}
+              checked={billing === "nam"} 
               onChange={() =>
                 setBilling(billing === "thang" ? "nam" : "thang")
               }

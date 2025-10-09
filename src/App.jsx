@@ -67,13 +67,13 @@ function App() {
             element={
               <>
                 <section id="home"><Hero /></section>
-                <section id="about"><Instructors /></section>
+                <section id="HLV"><Instructors /></section>
                 <section id="service"><Levels /></section>
                 <section id="service"><Courses /></section>
                 <section id="gallery"><Gallery /></section>
                 <section id="pricing"><Pricing /></section>
                 <section id="pricing"><AppPromo /></section>
-                <section id="blog"><Footer /></section>
+                <section id="Gallery"><Footer /></section>
               </>
             }
           />

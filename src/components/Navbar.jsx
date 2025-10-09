@@ -35,10 +35,10 @@ function Navbar() {
 
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto">
-            <li className="nav-item"><a className="nav-link" href="#about">Giới thiệu</a></li>
+            <li className="nav-item"><a className="nav-link" href="#HLV">Huấn luyện viên</a></li>
             <li className="nav-item"><a className="nav-link" href="#service">Dịch vụ</a></li>
             <li className="nav-item"><a className="nav-link" href="#pricing">Bảng giá</a></li>
-            <li className="nav-item"><a className="nav-link" href="#blog">Bài viết</a></li>
+            <li className="nav-item"><a className="nav-link" href="#Gallery">Bài viết</a></li>
 
             {/* Dropdown Vai trò */}
             <li className="nav-item dropdown">

@@ -126,9 +126,9 @@ function Gallery() {
   const visibleItems = filteredItems.slice(0, visibleCount);
 
   return (
-    <section className="gallery-section py-5">
+    <section id="Gallery" className="gallery-section py-5">
       <div className="container text-center mb-4">
-        <h2 className="fw-bold text-success">Bộ Sưu Tập Hoạt Động Yoga</h2>
+        <h2 className="fw-bold text-dark">Bộ Sưu Tập Hoạt Động Yoga</h2>
         <p>
           Khám phá không gian và các hoạt động thú vị tại phòng tập của chúng tôi
         </p>
@@ -140,7 +140,7 @@ function Gallery() {
           <button
             key={cat}
             className={`btn btn-sm rounded-pill px-3 ${
-              filter === cat ? "btn-success" : "btn-outline-success"
+              filter === cat ? "btn-dark" : "btn-outline-dark"
             }`}
             onClick={() => {
               setFilter(cat);
@@ -175,14 +175,14 @@ function Gallery() {
         <div className="text-center mt-4">
           {visibleCount < filteredItems.length ? (
             <button
-              className="btn btn-outline-success px-4"
+              className="btn btn-outline-dark px-4"
               onClick={() => setVisibleCount(visibleCount + 6)}
             >
               Xem thêm
             </button>
           ) : filteredItems.length > 6 ? (
             <button
-              className="btn btn-outline-danger px-4"
+              className="btn btn-outline-dark px-4"
               onClick={() => setVisibleCount(6)}
             >
               Thu gọn

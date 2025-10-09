@@ -29,7 +29,7 @@ function Instructors() {
   };
 
   return (
-    <section id="instructors" className="instructors-section py-5">
+    <section id="HLV" className="instructors-section py-5">
       <div className="m-5">
         <h3 className="fw-bold mb-4  text-center">
           Gặp gỡ các Huấn Luyện Viên Chuyên Nghiệp
