@@ -54,6 +54,7 @@ import AdminFeedback from "./components/admin/AdminFeedback";
 import AdminAnalytics from "./components/admin/AdminAnalytics";
 import AdminSettings from "./components/admin/AdminSettings";
 import Footer from "./components/Footer";
+import About from "./components/About";
 
 function App() {
   return (
@@ -67,6 +68,7 @@ function App() {
             element={
               <>
                 <section id="home"><Hero /></section>
+                <section id="about"><About /></section>
                 <section id="HLV"><Instructors /></section>
                 <section id="service"><Levels /></section>
                 <section id="service"><Courses /></section>

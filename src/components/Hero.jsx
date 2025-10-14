@@ -4,15 +4,12 @@ import "../assets/css/Hero.css";
 function Hero() {
   return (
     <section className="hero-section d-flex align-items-center">
-      {/* Overlay mờ */}
-      <div className="hero-overlay position-absolute top-0 start-0 w-100 h-100"></div>
 
       <div className=" position-relative content-wrapper">
         <div className="row align-items-center">
-          {/* Cột trái: Hero box */}
           <div className="col-md-6">
-            <div className="hero-box p-5">
-              <h1 className="hero-title display-5 fw-semibold">
+            <div className="hero-box">
+              <h1 className="hero-title">
                 Sự hài hòa của bạn bắt đầu từ đây — hãy tham gia ngay
               </h1>
               <p className="hero-subtitle lead mb-4">
@@ -26,7 +23,6 @@ function Hero() {
           </div>
 
           
-          {/* Cột phải: Stats */}
           <div className="col-md-6">
             <div className="hero-stats-box p-4">
               <div className="row text-center text-white">

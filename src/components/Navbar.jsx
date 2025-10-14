@@ -5,11 +5,10 @@ import "../assets/css/Navbar.css";
 
 function Navbar() {
   const [scrolled, setScrolled] = useState(false);
+  const [hovered, setHovered] = useState(false);
 
   useEffect(() => {
-    const handleScroll = () => {
-      setScrolled(window.scrollY > 50);
-    };
+    const handleScroll = () => setScrolled(window.scrollY > 50);
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
@@ -18,7 +17,9 @@ function Navbar() {
     <nav
       className={`navbar navbar-expand-lg fixed-top custom-navbar ${
         scrolled ? "scrolled" : ""
-      }`}
+      } ${hovered ? "hovered" : ""}`}
+      onMouseEnter={() => setHovered(true)}
+      onMouseLeave={() => setHovered(false)}
     >
       <div className="container">
         <Link className="navbar-brand fw-bold" to="/">

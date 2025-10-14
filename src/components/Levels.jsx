@@ -40,14 +40,13 @@ function Levels() {
                 <div className="container text-start">
                     <div className="row mb-4">
                         <div className="col-md-8">
-                            <h2 className="display-5 fw-bold">Lớp Học Cho Mọi Cấp Độ và Mục Tiêu</h2>
+                            <h2 className="display-5 fw-bold">30+ LỚP YOGA HÀNG TUẦN</h2>
                             <p className="lead">
-                                Các khóa học sẽ giúp bạn tìm lại sự cân bằng, cải thiện độ dẻo dai,
-                                tăng cường sức mạnh cơ thể và giảm căng thẳng.
+                                Lịch tập nhiều khung giờ, Đa dạng các loại hình Yoga và cấp độ Giảng dạy bởi Yogi Ấn Độ và Việt Nam.
                             </p>
                         </div>
                         <div className="col-md-4 d-flex align-items-center justify-content-md-end">
-                            <a href="#signup" className="btn btn-outline-light btn-lg">Thử Miễn Phí 14 Ngày</a>
+                            <a href="#signup" className="btn btn-outline-light btn-lg">Thử Miễn Phí ngay</a>
                         </div>
                     </div>
 

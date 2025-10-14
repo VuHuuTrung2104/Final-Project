@@ -1,0 +1,24 @@
+.about-yoga-section {
+  line-height: 2.3;
+  margin-top: 120px;
+}
+
+.about-yoga-section h2 {
+  letter-spacing: 1px;
+}
+
+.about-yoga-section p {
+  color: #000000;
+  margin-bottom: 1rem;
+}
+
+.about-yoga-section img {
+  max-height: 600px;
+  object-fit: cover;
+  border-radius: 12px;
+  transition: transform 0.4s ease;
+}
+
+.about-yoga-section img:hover {
+  transform: scale(1.03);
+}

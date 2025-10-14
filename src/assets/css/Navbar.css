@@ -1,8 +1,8 @@
 .custom-navbar {
-  margin: 15px auto;
+  margin: 10px auto;
   width: 70%;
   border-radius: 35px;
-  padding: .7rem 0.5rem;
+  padding: .3rem 0.5rem;
   transition: background 0.3s ease, box-shadow 0.3s ease;
 
   /* Glass mặc định */
@@ -13,7 +13,7 @@
 }
 
 .custom-navbar.scrolled {
-  background: rgba(63, 63, 63, 0.95); /* màu bg-dark khi scroll */
+  background: rgba(63, 63, 63, 0.95);
   backdrop-filter: none;
   border: none;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
@@ -44,4 +44,22 @@
 .custom-navbar .btn:hover {
   background: #fff;
   color: #000;
+}
+
+.custom-navbar.scrolled {
+  background: rgba(63, 63, 63, 0.4); 
+  backdrop-filter: blur(8px);
+  border: none;
+  box-shadow: none;
+  transition: background 0.4s ease, opacity 0.4s ease;
+  opacity: 0.6;
+}
+
+.custom-navbar.hovered,
+.custom-navbar:not(.scrolled) {
+  background: rgba(63, 63, 63, 0.9);
+  opacity: 1;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
 }
