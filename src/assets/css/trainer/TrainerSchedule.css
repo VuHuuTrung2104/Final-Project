@@ -1,0 +1,78 @@
+.trainer-schedule {
+  background: #f6f8fb;
+  min-height: 100vh;
+}
+
+/* Header */
+.trainer-schedule h2 {
+  border-left: 5px solid #198754;
+  padding-left: 10px;
+  color: #212529;
+}
+
+/* Table */
+.table th {
+  font-weight: 600;
+  color: #495057;
+}
+.table-hover tbody tr:hover {
+  background-color: #f9fcfa;
+}
+
+/* Calendar section */
+.calendar-section {
+  border-radius: 16px;
+  background: #fff;
+}
+
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 6px;
+}
+
+.calendar-day {
+  background: #f8f9fa;
+  text-align: center;
+  padding: 8px;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  border: 1px solid #dee2e6;
+  color: #555;
+  transition: all 0.2s;
+}
+
+.calendar-day.active {
+  background: #d1f0db;
+  color: #198754;
+  font-weight: 600;
+  border-color: #198754;
+}
+
+.calendar-day:hover {
+  background: #e9f7ef;
+  cursor: pointer;
+}
+
+/* Buttons */
+.btn-outline-success,
+.btn-outline-danger {
+  border-radius: 20px;
+  transition: all 0.3s;
+}
+
+.btn-outline-success:hover {
+  background: #198754;
+  color: #fff;
+}
+.btn-outline-danger:hover {
+  background: #dc3545;
+  color: #fff;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .calendar-grid {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}

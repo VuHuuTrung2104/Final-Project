@@ -1,0 +1,88 @@
+/* Tổng thể full màn hình */
+.dashboard-full {
+  min-height: 100vh;
+  min-width: 1vw;
+  background: #f6f8fb;
+    display: flex;
+  gap: 2rem;
+  overflow-x: hidden;
+}
+.dashboard-full::-webkit-scrollbar {
+  display: none;
+}
+
+/* Trái */
+.dashboard-left {
+  flex: 1;
+}
+
+/* Phải */
+.dashboard-right {
+  width: 360px;
+  flex-shrink: 0;
+}
+
+/* Card chung */
+.card {
+  border-radius: 18px;
+  background: #fff;
+  transition: all 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-2px);
+}
+
+/* Avatar */
+.avatar-lg {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+  background: #f2f4f6;
+}
+
+/* Calendar */
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 6px;
+}
+
+.calendar-day {
+  text-align: center;
+  padding: 8px;
+  border-radius: 8px;
+  background: #f8f9fa;
+  transition: all 0.2s;
+}
+
+.calendar-day.active {
+  background: #198754;
+  color: #fff;
+  font-weight: 600;
+}
+
+.calendar-day:hover {
+  background: #e9f7ef;
+  cursor: pointer;
+}
+
+/* Workshop box */
+.event-box {
+  background: #f9fcfa;
+  border: 1px solid #d8f3dc;
+}
+
+/* Tiến trình */
+.progress {
+  background-color: #e9f7ef;
+}
+.progress-bar {
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+/* Text */
+.text-muted {
+  color: #6c757d !important;
+}

@@ -1,0 +1,79 @@
+.modern-membership {
+  background: #f6f8fb;
+  min-height: 100vh;
+  color: #333;
+}
+
+/* Tiêu đề */
+.modern-membership h2 {
+  border-left: 5px solid #198754;
+  padding-left: 10px;
+  color: #212529;
+}
+
+/* Card tổng quát */
+.modern-membership .card {
+  border-radius: 15px;
+  background: #ffffff;
+  transition: transform 0.3s ease;
+}
+
+.modern-membership .card:hover {
+  transform: translateY(-3px);
+}
+
+/* Gói hiện tại */
+.current-package {
+  background: linear-gradient(180deg, #e9f7ef, #ffffff);
+}
+
+.current-package .badge {
+  background: #d1f0db;
+  border: 1px solid #198754;
+}
+
+/* Nút */
+.btn {
+  font-weight: 500;
+  border-radius: 10px;
+}
+
+.btn-warning {
+  background: #ffc107;
+  border: none;
+}
+
+.btn-warning:hover {
+  background: #e0a800;
+}
+
+/* Bảng giao dịch */
+.table-hover tbody tr:hover {
+  background-color: #f9fcfa;
+}
+
+.table th {
+  font-weight: 600;
+  color: #495057;
+}
+
+/* Form */
+.form-control,
+.form-select {
+  border: 1px solid #dee2e6;
+  box-shadow: none;
+  transition: border-color 0.2s;
+}
+
+.form-control:focus,
+.form-select:focus {
+  border-color: #198754;
+  box-shadow: 0 0 0 0.1rem rgba(25, 135, 84, 0.25);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .modern-membership {
+    padding-bottom: 3rem;
+  }
+}

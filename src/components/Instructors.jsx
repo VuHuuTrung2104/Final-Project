@@ -16,6 +16,8 @@ function Instructors() {
     { id: 3, name: "Sophia Light", role: "HLV Sức khỏe", image: HLV3 },
     { id: 4, name: "Daniel Zen", role: "HLV Thể lực", image: HLV4 },
     { id: 5, name: "Maya Bliss", role: "HLV Tinh thần", image: HLV5 },
+    { id: 5, name: "Maya Bliss", role: "HLV Tinh thần", image: HLV5 },
+    { id: 5, name: "Maya Bliss", role: "HLV Tinh thần", image: HLV5 },
   ];
 
   const scroll = (direction) => {

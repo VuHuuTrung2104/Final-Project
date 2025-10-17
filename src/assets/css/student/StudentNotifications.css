@@ -1,0 +1,57 @@
+.student-notifications {
+  border-radius: 15px;
+  background: linear-gradient(180deg, #f9fcfa, #ffffff);
+  color: #333;
+}
+
+/* Header */
+.student-notifications h5 {
+  color: #198754;
+}
+
+.student-notifications .btn-outline-success {
+  font-weight: 500;
+  border-radius: 10px;
+}
+
+/* List item */
+.notification-item {
+  border-radius: 12px;
+  padding: 12px 16px;
+  background: #f8f9fa;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.notification-item:hover {
+  background: #e9f7ef;
+  transform: translateY(-2px);
+}
+
+/* Loại thông báo */
+.notification-item.schedule {
+  border-left: 5px solid #0d6efd;
+}
+
+.notification-item.promo {
+  border-left: 5px solid #ffc107;
+}
+
+.notification-item.progress {
+  border-left: 5px solid #20c997;
+}
+
+/* Văn bản */
+.notification-item p {
+  margin: 0;
+  font-size: 0.95rem;
+}
+
+/* Responsive */
+@media (max-width: 576px) {
+  .student-notifications {
+    padding: 1.25rem;
+  }
+  .notification-item {
+    padding: 10px 12px;
+  }
+}

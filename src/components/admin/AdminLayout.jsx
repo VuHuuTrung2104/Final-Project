@@ -1,148 +1,85 @@
-// src/components/admin/AdminLayout.jsx
 import React, { useState } from "react";
 import { NavLink, Outlet } from "react-router-dom";
+import "../../assets/css/admin/AdminLayout.css";
 
 export default function AdminLayout() {
   const [collapsed, setCollapsed] = useState(false);
 
   return (
-    <div className="d-flex" style={{ paddingTop: "56px" }}>
-      {/* Sidebar */}
-      <div
-        className="bg-dark text-white p-2 d-flex flex-column"
-        style={{
-          width: collapsed ? "70px" : "220px",
-          minHeight: "100vh",
-          transition: "width 0.3s",
-        }}
-      >
-        {/* Toggle button */}
-        <button
-          className="btn btn-sm btn-outline-light mb-3"
-          onClick={() => setCollapsed(!collapsed)}
-        >
-          <i
-            className={`bi ${
-              collapsed
-                ? "bi-layout-sidebar-inset"
-                : "bi-layout-sidebar-inset-reverse"
-            }`}
-          ></i>
-        </button>
+    <div className="admin-layout d-flex">
+      {/* SIDEBAR */}
+      <aside className={`admin-sidebar ${collapsed ? "collapsed" : ""}`}>
+        <div className="sidebar-header d-flex align-items-center justify-content-between px-2 mb-3">
+          {!collapsed && <h5 className="fw-bold mb-0">🧘‍♂️ Admin</h5>}
+          <button
+            className="btn btn-sm btn-outline-light"
+            onClick={() => setCollapsed(!collapsed)}
+          >
+            <i
+              className={`bi ${
+                collapsed ? "bi-chevron-double-right" : "bi-chevron-double-left"
+              }`}
+            ></i>
+          </button>
+        </div>
 
-        {/* Menu */}
+        {/* MENU */}
         <ul className="nav flex-column">
-  <li className="nav-item">
-    <NavLink to="/admin/dashboard" className="nav-link text-white">
-      <i className="bi bi-speedometer2 me-2"></i>
-      {collapsed ? "" : "Dashboard"}
-    </NavLink>
-  </li>
-  <li className="nav-item">
-    <NavLink to="/admin/users" className="nav-link text-white">
-      <i className="bi bi-people me-2"></i>
-      {collapsed ? "" : "Quản lý User"}
-    </NavLink>
-  </li>
-  <li className="nav-item">
-    <NavLink to="/admin/trainers" className="nav-link text-white">
-      <i className="bi bi-person-badge me-2"></i>
-      {collapsed ? "" : "Quản lý Trainer"}
-    </NavLink>
-  </li>
-  <li className="nav-item">
-    <NavLink to="/admin/courses" className="nav-link text-white">
-      <i className="bi bi-journal-bookmark me-2"></i>
-      {collapsed ? "" : "Quản lý Course"}
-    </NavLink>
-  </li>
-  <li className="nav-item">
-    <NavLink to="/admin/classrooms" className="nav-link text-white">
-      <i className="bi bi-building me-2"></i>
-      {collapsed ? "" : "Quản lý Classroom"}
-    </NavLink>
-  </li>
-  <li className="nav-item">
-    <NavLink to="/admin/schedule" className="nav-link text-white">
-      <i className="bi bi-calendar3 me-2"></i>
-      {collapsed ? "" : "Quản lý Schedule"}
-    </NavLink>
-  </li>
-  <li className="nav-item">
-    <NavLink to="/admin/registrations" className="nav-link text-white">
-      <i className="bi bi-card-checklist me-2"></i>
-      {collapsed ? "" : "Đăng ký học"}
-    </NavLink>
-  </li>
-  <li className="nav-item">
-    <NavLink to="/admin/membership-plans" className="nav-link text-white">
-      <i className="bi bi-ticket-perforated me-2"></i>
-      {collapsed ? "" : "Gói tập"}
-    </NavLink>
-  </li>
-  <li className="nav-item">
-    <NavLink to="/admin/memberships" className="nav-link text-white">
-      <i className="bi bi-person-check me-2"></i>
-      {collapsed ? "" : "Membership của User"}
-    </NavLink>
-  </li>
-  <li className="nav-item">
-    <NavLink to="/admin/payments" className="nav-link text-white">
-      <i className="bi bi-credit-card me-2"></i>
-      {collapsed ? "" : "Thanh toán"}
-    </NavLink>
-  </li>
-  <li className="nav-item">
-    <NavLink to="/admin/reports" className="nav-link text-white">
-      <i className="bi bi-bar-chart-line me-2"></i>
-      {collapsed ? "" : "Báo cáo"}
-    </NavLink>
-  </li>
-  {/* Phần nâng cấp thêm */}
-  <li className="nav-item">
-    <NavLink to="/admin/notifications" className="nav-link text-white">
-      <i className="bi bi-bell me-2"></i>
-      {collapsed ? "" : "Thông báo"}
-    </NavLink>
-  </li>
-  <li className="nav-item">
-    <NavLink to="/admin/content" className="nav-link text-white">
-      <i className="bi bi-file-text me-2"></i>
-      {collapsed ? "" : "Quản lý nội dung"}
-    </NavLink>
-  </li>
-  <li className="nav-item">
-    <NavLink to="/admin/roles" className="nav-link text-white">
-      <i className="bi bi-shield-lock me-2"></i>
-      {collapsed ? "" : "Phân quyền"}
-    </NavLink>
-  </li>
-  <li className="nav-item">
-    <NavLink to="/admin/feedback" className="nav-link text-white">
-      <i className="bi bi-chat-dots me-2"></i>
-      {collapsed ? "" : "Feedback"}
-    </NavLink>
-  </li>
-  <li className="nav-item">
-    <NavLink to="/admin/analytics" className="nav-link text-white">
-      <i className="bi bi-graph-up-arrow me-2"></i>
-      {collapsed ? "" : "Thống kê nâng cao"}
-    </NavLink>
-  </li>
-  <li className="nav-item">
-    <NavLink to="/admin/settings" className="nav-link text-white">
-      <i className="bi bi-gear me-2"></i>
-      {collapsed ? "" : "Cài đặt hệ thống"}
-    </NavLink>
-  </li>
-</ul>
+          <li className="nav-item">
+            <NavLink to="/admin/dashboard" className="nav-link">
+              <i className="bi bi-speedometer2"></i>
+              {!collapsed && <span>Dashboard</span>}
+            </NavLink>
+          </li>
+          <li className="nav-item">
+            <NavLink to="/admin/users" className="nav-link">
+              <i className="bi bi-people"></i>
+              {!collapsed && <span>Quản lý User</span>}
+            </NavLink>
+          </li>
+          <li className="nav-item">
+            <NavLink to="/admin/trainers" className="nav-link">
+              <i className="bi bi-person-badge"></i>
+              {!collapsed && <span>Quản lý Trainer</span>}
+            </NavLink>
+          </li>
+          <li className="nav-item">
+            <NavLink to="/admin/courses" className="nav-link">
+              <i className="bi bi-journal-bookmark"></i>
+              {!collapsed && <span>Quản lý Course</span>}
+            </NavLink>
+          </li>
+          <li className="nav-item">
+            <NavLink to="/admin/schedule" className="nav-link">
+              <i className="bi bi-calendar3"></i>
+              {!collapsed && <span>Quản lý Schedule</span>}
+            </NavLink>
+          </li>
+          <li className="nav-item">
+            <NavLink to="/admin/payments" className="nav-link">
+              <i className="bi bi-credit-card"></i>
+              {!collapsed && <span>Thanh toán</span>}
+            </NavLink>
+          </li>
+          <li className="nav-item">
+            <NavLink to="/admin/reports" className="nav-link">
+              <i className="bi bi-bar-chart-line"></i>
+              {!collapsed && <span>Báo cáo</span>}
+            </NavLink>
+          </li>
+          <li className="nav-item">
+            <NavLink to="/admin/settings" className="nav-link">
+              <i className="bi bi-gear"></i>
+              {!collapsed && <span>Cài đặt</span>}
+            </NavLink>
+          </li>
+        </ul>
+      </aside>
 
-      </div>
-
-      {/* Content */}
-      <div className="flex-grow-1 p-4">
+      {/* CONTENT */}
+      <main className="admin-content flex-grow-1">
         <Outlet />
-      </div>
+      </main>
     </div>
   );
 }

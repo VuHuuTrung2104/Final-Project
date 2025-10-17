@@ -16,6 +16,8 @@ function Courses() {
     { id: 3, name: "Yin Yoga", image: CoursesIMG2, description: "Yin Yoga chú trọng vào việc giữ các tư thế lâu hơn, giúp thư giãn sâu và cải thiện độ dẻo dai." },
     { id: 4, name: "Kundalini Yoga", image: CoursesIMG4, description: "Kundalini Yoga kết hợp hơi thở, động tác và thiền định để khai mở nguồn năng lượng tiềm ẩn." },
     { id: 5, name: "Ashtanga Yoga", image: CoursesIMG5, description: "Ashtanga Yoga là chuỗi tư thế có cấu trúc, kết hợp sức mạnh, sự linh hoạt và sức bền." },
+    { id: 5, name: "Ashtanga Yoga", image: CoursesIMG5, description: "Ashtanga Yoga là chuỗi tư thế có cấu trúc, kết hợp sức mạnh, sự linh hoạt và sức bền." },
+    { id: 5, name: "Ashtanga Yoga", image: CoursesIMG5, description: "Ashtanga Yoga là chuỗi tư thế có cấu trúc, kết hợp sức mạnh, sự linh hoạt và sức bền." },
   ];
 
   const scroll = (direction) => {

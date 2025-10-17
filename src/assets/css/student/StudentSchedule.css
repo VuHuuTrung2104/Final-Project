@@ -1,0 +1,104 @@
+.modern-schedule {
+  background: #f6f8fb;
+  min-height: 100vh;
+  color: #333;
+}
+
+/* Header */
+.modern-schedule h2 {
+  border-left: 5px solid #198754;
+  padding-left: 10px;
+  color: #212529;
+}
+
+/* Bộ chọn chế độ xem */
+.view-switcher .btn {
+  font-weight: 500;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+
+.view-switcher .btn-primary {
+  background: #198754;
+  border-color: #198754;
+}
+
+/* Bảng */
+.table {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.table th {
+  font-weight: 600;
+  color: #495057;
+}
+
+.table-hover tbody tr:hover {
+  background-color: #f9fcfa;
+}
+
+.btn-outline-danger {
+  border-radius: 10px;
+}
+
+.btn-outline-danger:hover {
+  background: #dc3545;
+  color: white;
+}
+
+/* Lịch tổng quan */
+.calendar-section {
+  border-radius: 15px;
+}
+
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 5px;
+  margin-top: 10px;
+}
+
+.calendar-day {
+  background: #f8f9fa;
+  padding: 8px;
+  border-radius: 6px;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #555;
+  border: 1px solid #dee2e6;
+  transition: 0.2s;
+}
+
+.calendar-day.active {
+  background: #d1f0db;
+  color: #198754;
+  border-color: #198754;
+  font-weight: 600;
+}
+
+/* 👉 Hôm nay (today) */
+.calendar-day.today {
+  border: 2px solid #0d6efd;
+  color: #0d6efd;
+  font-weight: 700;
+  background: #e7f0ff;
+  position: relative;
+}
+
+/* Hiệu ứng hover */
+.calendar-day:hover {
+  background: #e9f7ef;
+  cursor: pointer;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .calendar-grid {
+    grid-template-columns: repeat(5, 1fr);
+  }
+
+  .view-switcher {
+    justify-content: center;
+  }
+}

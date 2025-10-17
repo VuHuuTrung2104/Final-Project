@@ -1,0 +1,46 @@
+.trainer-reports {
+  background: #f6f8fb;
+  min-height: 100vh;
+}
+
+/* Header */
+.trainer-reports h2 {
+  border-left: 5px solid #198754;
+  padding-left: 10px;
+  color: #212529;
+}
+
+/* Card style */
+.trainer-reports .card {
+  border-radius: 16px;
+  transition: all 0.3s ease;
+}
+
+.trainer-reports .card:hover {
+  transform: translateY(-3px);
+}
+
+/* Progress */
+.progress-bar {
+  font-size: 0.9rem;
+}
+
+/* Button */
+.btn-success {
+  border-radius: 20px;
+  transition: all 0.3s;
+}
+
+.btn-success:hover {
+  background: #157347;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .trainer-reports {
+    padding: 1rem;
+  }
+  .card {
+    padding: 1rem !important;
+  }
+}

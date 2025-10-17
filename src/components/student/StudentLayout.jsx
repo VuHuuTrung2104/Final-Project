@@ -1,92 +1,73 @@
-// src/components/student/StudentLayout.jsx
 import React, { useState } from "react";
 import { NavLink, Outlet } from "react-router-dom";
+import "../../assets/css/student/StudentLayout.css";
 
 export default function StudentLayout() {
   const [collapsed, setCollapsed] = useState(false);
 
   return (
-    <div className="d-flex" style={{ paddingTop: "56px" }}>
-      {/* Sidebar */}
-      <div
-        className="bg-dark text-white p-2 d-flex flex-column"
-        style={{
-          width: collapsed ? "70px" : "220px",
-          minHeight: "100vh",
-          transition: "width 0.3s",
-        }}
-      >
-        {/* Toggle button */}
-        <button
-          className="btn btn-sm btn-outline-light mb-3"
-          onClick={() => setCollapsed(!collapsed)}
-        >
-          <i
-            className={`bi ${
-              collapsed
-                ? "bi-layout-sidebar-inset"
-                : "bi-layout-sidebar-inset-reverse"
-            }`}
-          ></i>
-        </button>
+    <div className="student-layout d-flex">
+      {/* SIDEBAR */}
+      <aside className={`student-sidebar ${collapsed ? "collapsed" : ""}`}>
+        <div className="sidebar-header d-flex align-items-center justify-content-between px-2 mb-3">
+          {!collapsed && <h5 className="fw-bold mb-0">🧘‍♀️ Student</h5>}
+          <button
+            className="btn btn-sm btn-outline-light"
+            onClick={() => setCollapsed(!collapsed)}
+          >
+            <i
+              className={`bi ${
+                collapsed ? "bi-chevron-double-right" : "bi-chevron-double-left"
+              }`}
+            ></i>
+          </button>
+        </div>
 
-        {/* Menu */}
+        {/* MENU */}
         <ul className="nav flex-column">
           <li className="nav-item">
-            <NavLink to="/student/dashboard" className="nav-link text-white">
-              <i className="bi bi-speedometer2 me-2"></i>
-              {collapsed ? "" : "Dashboard"}
+            <NavLink to="/student/dashboard" className="nav-link">
+              <i className="bi bi-speedometer2"></i>
+              {!collapsed && <span>Tổng quan</span>}
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink to="/student/courses" className="nav-link text-white">
-              <i className="bi bi-journal-bookmark me-2"></i>
-              {collapsed ? "" : "Khóa học"}
+            <NavLink to="/student/courses" className="nav-link">
+              <i className="bi bi-journal-bookmark"></i>
+              {!collapsed && <span>Khóa học</span>}
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink to="/student/schedule" className="nav-link text-white">
-              <i className="bi bi-calendar3 me-2"></i>
-              {collapsed ? "" : "Lịch học"}
+            <NavLink to="/student/schedule" className="nav-link">
+              <i className="bi bi-calendar3"></i>
+              {!collapsed && <span>Lịch học</span>}
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink to="/student/membership" className="nav-link text-white">
-              <i className="bi bi-person-badge me-2"></i>
-              {collapsed ? "" : "Membership"}
+            <NavLink to="/student/membership" className="nav-link">
+              <i className="bi bi-person-badge"></i>
+              {!collapsed && <span>Membership</span>}
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink to="/student/payments" className="nav-link text-white">
-              <i className="bi bi-credit-card me-2"></i>
-              {collapsed ? "" : "Thanh toán"}
+            <NavLink to="/student/payments" className="nav-link">
+              <i className="bi bi-credit-card"></i>
+              {!collapsed && <span>Thanh toán</span>}
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink to="/student/notifications" className="nav-link text-white">
-              <i className="bi bi-bell me-2"></i>
-              {collapsed ? "" : "Thông báo"}
-            </NavLink>
-          </li>
-          <li className="nav-item">
-            <NavLink to="/student/progress" className="nav-link text-white">
-              <i className="bi bi-graph-up me-2"></i>
-              {collapsed ? "" : "Tiến trình"}
-            </NavLink>
-          </li>
-          <li className="nav-item">
-            <NavLink to="/student/profile" className="nav-link text-white">
-              <i className="bi bi-person-circle me-2"></i>
-              {collapsed ? "" : "Hồ sơ"}
+            <NavLink to="/student/notifications" className="nav-link">
+              <i className="bi bi-bell"></i>
+              {!collapsed && <span>Thông báo</span>}
             </NavLink>
           </li>
         </ul>
-      </div>
+      </aside>
 
-      {/* Content */}
-      <div className="flex-grow-1 p-4">
+      {/* CONTENT */}
+      <main className="student-content flex-grow-1">
         <Outlet />
-      </div>
+      </main>
     </div>
   );
 }

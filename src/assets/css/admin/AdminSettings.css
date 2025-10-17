@@ -1,0 +1,62 @@
+.admin-settings {
+  background: #f6f8fb;
+  color: #333;
+  min-height: 100vh;
+}
+
+/* Header */
+.admin-settings h2 {
+  border-left: 5px solid #198754;
+  padding-left: 10px;
+  line-height: 1.3;
+}
+
+.admin-settings p {
+  font-size: 0.95rem;
+}
+
+/* Card */
+.card {
+  border-radius: 12px;
+}
+
+.card form {
+  font-size: 0.95rem;
+}
+
+/* Labels */
+.form-label {
+  font-weight: 500;
+}
+
+/* Form controls */
+.form-control,
+.form-select,
+.form-control-color {
+  border-radius: 8px;
+  transition: border-color 0.2s ease;
+}
+
+.form-control:focus,
+.form-select:focus,
+.form-control-color:focus {
+  border-color: #198754;
+  box-shadow: 0 0 0 0.15rem rgba(25, 135, 84, 0.25);
+}
+
+/* Buttons */
+.btn-success {
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.btn-success:hover {
+  background: #157347;
+  border-color: #157347;
+  box-shadow: 0 0 10px rgba(25, 135, 84, 0.3);
+}
+
+/* File input hint */
+small.text-muted {
+  font-size: 0.85rem;
+}

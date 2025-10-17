@@ -1,0 +1,42 @@
+.admin-analytics {
+  background: #f6f8fb;
+  color: #333;
+}
+
+/* Header */
+.admin-analytics h2 {
+  border-left: 5px solid #198754;
+  padding-left: 10px;
+}
+
+/* Cards */
+.analytics-card {
+  border-radius: 12px;
+  transition: transform 0.2s ease;
+}
+.analytics-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* Chart placeholder */
+.chart-placeholder {
+  height: 260px;
+  font-size: 0.95rem;
+}
+
+/* Progress bars */
+.progress {
+  border-radius: 20px;
+  background-color: #e9ecef;
+}
+
+.progress-bar {
+  transition: width 0.6s ease;
+  border-radius: 20px;
+}
+
+/* Text */
+.text-secondary {
+  font-weight: 500;
+}

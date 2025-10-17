@@ -1,0 +1,75 @@
+.admin-membership {
+  background: #f6f8fb;
+  color: #333;
+}
+
+/* Header */
+.admin-membership h2 {
+  border-left: 5px solid #198754;
+  padding-left: 10px;
+}
+
+/* Table */
+.table {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.table th {
+  color: #495057;
+  font-weight: 600;
+}
+
+.table-hover tbody tr:hover {
+  background-color: #f9fcfa;
+}
+
+/* Badge */
+.badge {
+  font-size: 0.85rem;
+  padding: 0.4em 0.6em;
+}
+
+/* Buttons */
+.btn-outline-success,
+.btn-outline-warning,
+.btn-outline-danger {
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.btn-outline-success:hover {
+  background: #198754;
+  color: #fff;
+  border-color: #198754;
+}
+
+.btn-outline-warning:hover {
+  background: #ffc107;
+  color: #000;
+  border-color: #ffc107;
+}
+
+.btn-outline-danger:hover {
+  background: #dc3545;
+  color: #fff;
+}
+
+/* Modal */
+.modal-content {
+  border-radius: 10px;
+}
+
+.modal-header {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.form-label {
+  font-weight: 500;
+}
+
+.form-control,
+.form-select {
+  border-radius: 8px;
+}

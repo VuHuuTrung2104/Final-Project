@@ -1,0 +1,47 @@
+.admin-dashboard {
+  background: #f6f8fb;
+  color: #333;
+}
+
+/* Tiêu đề */
+.admin-dashboard h2 {
+  border-left: 5px solid #198754;
+  padding-left: 10px;
+}
+
+/* Card thống kê */
+.stat-card {
+  border: none;
+  border-radius: 12px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.stat-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Chart placeholder */
+.chart-placeholder {
+  border-radius: 10px;
+  background: #f8f9fa;
+}
+
+/* List thống kê nhanh */
+.list-group-item {
+  border: none;
+  border-bottom: 1px dashed #dee2e6;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.list-group-item:last-child {
+  border-bottom: none;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .admin-dashboard h2 {
+    font-size: 1.3rem;
+  }
+}

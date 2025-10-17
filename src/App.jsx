@@ -6,7 +6,6 @@ import Hero from "./components/Hero";
 import Courses from "./components/Courses";
 import Levels from "./components/Levels";
 import Instructors from "./components/Instructors";
-import AppPromo from "./components/AppPromo";
 import SignupPage from "./components/SignupPage";
 import LoginPage from "./components/LoginPage";
 import Gallery from "./components/Gallery";
@@ -21,8 +20,6 @@ import StudentSchedule from "./components/student/StudentSchedule";
 import StudentMembership from "./components/student/StudentMembership";
 import StudentPayments from "./components/student/StudentPayments";
 import StudentNotifications from "./components/student/StudentNotifications";
-import StudentProgress from "./components/student/StudentProgress";
-import StudentProfile from "./components/student/StudentProfile";
 
 // Trainer
 import TrainerLayout from "./components/trainer/TrainerLayout";
@@ -32,7 +29,6 @@ import TrainerClass from "./components/trainer/TrainerClass";
 import TrainerAttendance from "./components/trainer/TrainerAttendance";
 import TrainerReports from "./components/trainer/TrainerReports";
 import TrainerNotifications from "./components/trainer/TrainerNotifications";
-import TrainerProfile from "./components/trainer/TrainerProfile";
 
 // Admin
 import AdminLayout from "./components/admin/AdminLayout";
@@ -74,7 +70,6 @@ function App() {
                 <section id="service"><Courses /></section>
                 <section id="gallery"><Gallery /></section>
                 <section id="pricing"><Pricing /></section>
-                <section id="pricing"><AppPromo /></section>
                 <section id="Gallery"><Footer /></section>
               </>
             }
@@ -94,8 +89,6 @@ function App() {
             <Route path="membership" element={<StudentMembership />} />
             <Route path="payments" element={<StudentPayments />} />
             <Route path="notifications" element={<StudentNotifications />} />
-            <Route path="progress" element={<StudentProgress />} />
-            <Route path="profile" element={<StudentProfile />} />
           </Route>
 
           {/* Trainer */}
@@ -107,7 +100,6 @@ function App() {
             <Route path="attendance" element={<TrainerAttendance />} />
             <Route path="reports" element={<TrainerReports />} />
             <Route path="notifications" element={<TrainerNotifications />} />
-            <Route path="profile" element={<TrainerProfile />} />
           </Route>
 
           {/* Admin */}

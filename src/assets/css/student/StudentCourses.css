@@ -1,0 +1,94 @@
+/* Tổng thể */
+.modern-courses {
+  background: #f6f8fb;
+  min-height: 100vh;
+  color: #333;
+}
+
+/* Tiêu đề */
+.modern-courses h2 {
+  color: #212529;
+  border-left: 5px solid #198754;
+  padding-left: 10px;
+}
+
+/* Thẻ khóa học */
+.course-card {
+  border: none;
+  border-radius: 15px;
+  overflow: hidden;
+  background: #ffffff;
+  transition: all 0.3s ease;
+}
+
+.course-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+}
+
+/* Ảnh khóa học */
+.card-img-wrapper {
+  position: relative;
+  height: 180px;
+  overflow: hidden;
+}
+
+.card-img-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.course-card:hover img {
+  transform: scale(1.05);
+}
+
+/* Nhãn cấp độ */
+.course-level {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 0.8rem;
+  padding: 5px 10px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(5px);
+}
+
+/* Nội dung thẻ */
+.course-card .card-body {
+  padding: 1rem 1.25rem;
+}
+
+.course-card .card-title {
+  color: #198754;
+  margin-bottom: 0.4rem;
+}
+
+.course-card .text-muted {
+  color: #6c757d !important;
+}
+
+/* Nút */
+.course-card .btn {
+  font-weight: 500;
+  border-radius: 10px;
+  transition: 0.2s;
+}
+
+.course-card .btn-outline-primary:hover {
+  background: #0d6efd;
+  color: white;
+}
+
+.course-card .btn-success:hover {
+  background: #157347;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .card-img-wrapper {
+    height: 160px;
+  }
+}

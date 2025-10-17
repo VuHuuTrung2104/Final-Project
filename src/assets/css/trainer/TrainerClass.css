@@ -1,0 +1,57 @@
+.trainer-class {
+  background: #f6f8fb;
+  min-height: 100vh;
+}
+
+/* Header */
+.trainer-class h2 {
+  border-left: 5px solid #198754;
+  padding-left: 10px;
+  color: #212529;
+}
+
+/* Card */
+.trainer-class .card {
+  border-radius: 16px;
+  transition: all 0.3s ease;
+}
+
+.trainer-class .card:hover {
+  transform: translateY(-3px);
+}
+
+/* Table */
+.table th {
+  font-weight: 600;
+  color: #495057;
+}
+
+.table-hover tbody tr:hover {
+  background-color: #f9fcfa;
+}
+
+/* Button */
+.btn-success {
+  border-radius: 20px;
+  transition: all 0.3s;
+}
+
+.btn-success:hover {
+  background: #157347;
+}
+
+/* Checkbox */
+.form-check-input:checked {
+  background-color: #198754;
+  border-color: #198754;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .trainer-class {
+    padding: 1rem;
+  }
+  .card {
+    padding: 1rem !important;
+  }
+}
