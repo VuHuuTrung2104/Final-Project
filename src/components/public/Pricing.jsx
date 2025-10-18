@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../assets/css/Pricing.css";
+import "../../assets/css/public/Pricing.css";
 
 function Pricing() {
   const [billing, setBilling] = useState("thang"); // mặc định theo tháng

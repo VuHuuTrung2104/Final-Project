@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import "../assets/css/Footer.css";
+import "../../assets/css/public/Footer.css";
 
 function Footer() {
     const [showButton, setShowButton] = useState(false);

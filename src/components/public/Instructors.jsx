@@ -1,10 +1,10 @@
 import { useState, useRef } from "react";
-import "../assets/css/Instructors.css";
-import HLV1 from "../assets/img/HLV/1.jpg";
-import HLV2 from "../assets/img/HLV/2.jpg";
-import HLV3 from "../assets/img/HLV/3.jpg";
-import HLV4 from "../assets/img/HLV/4.jpg";
-import HLV5 from "../assets/img/HLV/5.jpg";
+import "../../assets/css/public/Instructors.css";
+import HLV1 from "../../assets/img/HLV/1.jpg";
+import HLV2 from "../../assets/img/HLV/2.jpg";
+import HLV3 from "../../assets/img/HLV/3.jpg";
+import HLV4 from "../../assets/img/HLV/4.jpg";
+import HLV5 from "../../assets/img/HLV/5.jpg";
 
 function Instructors() {
   const [active, setActive] = useState(null);

@@ -61,6 +61,14 @@ export default function StudentLayout() {
               {!collapsed && <span>Thông báo</span>}
             </NavLink>
           </li>
+
+          {/* 🔹 NÚT VỀ TRANG CHỦ - thêm mới */}
+          <li className="nav-item mt-2 border-top pt-2">
+            <NavLink to="/" className="nav-link">
+              <i className="bi bi-house-door"></i>
+              {!collapsed && <span>Trang chủ</span>}
+            </NavLink>
+          </li>
         </ul>
       </aside>
 

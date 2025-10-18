@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "../assets/css/SignupPage.css";
-import imglogin from "../assets/img/Banner/2.png";
+import "../../assets/css/public/SignupPage.css";
+import imglogin from "../../assets/img/Banner/2.png";
 
 function LoginPage() {
     return (

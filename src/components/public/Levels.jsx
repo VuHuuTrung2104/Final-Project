@@ -1,5 +1,5 @@
-import "../assets/css/Levels.css";
-import LevelsIMG from "../assets/img/Levels/1.jpg";
+import "../../assets/css/public/Levels.css";
+import LevelsIMG from "../../assets/img/Levels/1.jpg";
 
 function Levels() {
     const features = [

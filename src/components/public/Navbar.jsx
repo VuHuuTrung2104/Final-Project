@@ -1,7 +1,7 @@
 // src/components/Navbar.jsx
 import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
-import "../assets/css/Navbar.css";
+import "../../assets/css/public/Navbar.css";
 
 function Navbar() {
   const [scrolled, setScrolled] = useState(false);

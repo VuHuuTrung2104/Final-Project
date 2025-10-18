@@ -1,10 +1,10 @@
 import { useState, useRef } from "react";
-import "../assets/css/Courses.css";
-import CoursesIMG1 from "../assets/img/Courses/1.jpg";
-import CoursesIMG2 from "../assets/img/Courses/2.jpg";
-import CoursesIMG3 from "../assets/img/Courses/3.jpg";
-import CoursesIMG4 from "../assets/img/Courses/4.jpg";
-import CoursesIMG5 from "../assets/img/Courses/5.jpg";
+import "../../assets/css/public/Courses.css";
+import CoursesIMG1 from "../../assets/img/Courses/1.jpg";
+import CoursesIMG2 from "../../assets/img/Courses/2.jpg";
+import CoursesIMG3 from "../../assets/img/Courses/3.jpg";
+import CoursesIMG4 from "../../assets/img/Courses/4.jpg";
+import CoursesIMG5 from "../../assets/img/Courses/5.jpg";
 
 function Courses() {
   const [active, setActive] = useState(null);

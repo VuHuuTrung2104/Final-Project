@@ -1,7 +1,7 @@
 import React from "react";
-import "../assets/css/About.css";
+import "../../assets/css/public/About.css";
 import { Link } from "react-router-dom";
-import img from "../assets/img/Gallery/KhachHangVaCongDong/2.jpg";
+import img from "../../assets/img/Banner/2.png";
 
 export default function About() {
   return (

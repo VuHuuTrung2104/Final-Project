@@ -66,6 +66,13 @@ export default function TrainerLayout() {
           <li className="nav-item mt-auto">
             
           </li>
+           {/* 🔹 NÚT VỀ TRANG CHỦ - thêm mới */}
+                    <li className="nav-item mt-2 border-top pt-2">
+                      <NavLink to="/" className="nav-link">
+                        <i className="bi bi-house-door"></i>
+                        {!collapsed && <span>Trang chủ</span>}
+                      </NavLink>
+                    </li>
         </ul>
       </aside>
 
