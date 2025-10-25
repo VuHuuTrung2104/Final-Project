@@ -25,7 +25,7 @@ export default function StudentDashboard() {
   );
 
   return (
-    <div className="dashboard-full d-flex gap-4">
+    <div className="dashboard-full d-flex gap-4 m-5">
       {/* ==== TRÁI ==== */}
       <div className="dashboard-left flex-grow-1">
         {/* Header */}

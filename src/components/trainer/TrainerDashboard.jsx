@@ -20,7 +20,7 @@ export default function TrainerDashboard() {
   ];
 
   return (
-    <div className="trainer-dashboard container-fluid py-4">
+    <div className="trainer-dashboard container-fluid py-4 ">
       <h2 className="fw-bold mb-4">🧘 Bảng điều khiển Huấn luyện viên</h2>
 
       <div className="row g-4">

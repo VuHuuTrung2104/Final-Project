@@ -3,7 +3,7 @@ import "../../assets/css/admin/AdminDashboard.css";
 
 export default function AdminDashboard() {
   return (
-    <div className="admin-dashboard  py-4">
+    <div className="admin-dashboard  py-4 m-5">
       {/* Header */}
       <div className="mb-4">
         <h2 className="fw-bold text-success mb-1">🛠️ Bảng điều khiển quản lý</h2>
