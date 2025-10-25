@@ -7,7 +7,7 @@ export default function AdminSettings() {
       {/* Header */}
       <div className="d-flex align-items-center justify-content-between mb-3">
         <div>
-          <h2 className="fw-bold text-success mb-1">⚙️ Cài đặt hệ thống</h2>
+          <h2 className="fw-bold text-success mb-1">Cài đặt hệ thống</h2>
           <p className="text-muted mb-0">
             Quản lý thông tin cơ bản và cấu hình hiển thị của trung tâm Yoga.
           </p>
@@ -23,7 +23,7 @@ export default function AdminSettings() {
           {/* Tên trung tâm */}
           <div className="col-md-6">
             <label className="form-label fw-semibold">
-              🏛️ Tên trung tâm
+              Tên trung tâm
             </label>
             <input
               type="text"
@@ -35,7 +35,7 @@ export default function AdminSettings() {
           {/* Email liên hệ */}
           <div className="col-md-6">
             <label className="form-label fw-semibold">
-              📧 Email liên hệ
+              Email liên hệ
             </label>
             <input
               type="email"
@@ -46,7 +46,7 @@ export default function AdminSettings() {
 
           {/* Logo */}
           <div className="col-md-6">
-            <label className="form-label fw-semibold">🖼️ Logo</label>
+            <label className="form-label fw-semibold">Logo</label>
             <input type="file" className="form-control" />
             <small className="text-muted fst-italic">
               Định dạng được hỗ trợ: JPG, PNG (tối đa 2MB)
@@ -56,14 +56,14 @@ export default function AdminSettings() {
           {/* Màu chủ đạo */}
           <div className="col-md-6">
             <label className="form-label fw-semibold">
-              🎨 Màu chủ đạo website
+              Màu chủ đạo website
             </label>
             <input type="color" className="form-control form-control-color" defaultValue="#198754" />
           </div>
 
           {/* Thông báo chung */}
           <div className="col-12">
-            <label className="form-label fw-semibold">📢 Thông báo mặc định</label>
+            <label className="form-label fw-semibold">Thông báo mặc định</label>
             <textarea
               className="form-control"
               rows="3"

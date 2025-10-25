@@ -17,9 +17,9 @@ export default function TrainerAttendance() {
       {/* Header */}
       <div className="d-flex justify-content-between align-items-center mb-4">
         <div>
-          <h2 className="fw-bold mb-1">✅ Điểm danh học viên</h2>
+          <h2 className="fw-bold mb-1">Điểm danh học viên</h2>
           <p className="text-muted mb-0">
-            Theo dõi và quản lý tình trạng tham gia lớp học của học viên 🧘‍♀️
+            Theo dõi và quản lý tình trạng tham gia lớp học của học viên
           </p>
         </div>
         <button className="btn btn-success rounded-pill px-3">
@@ -49,7 +49,7 @@ export default function TrainerAttendance() {
         </div>
         <div className="col-md-6 col-lg-3">
           <div className="card shadow-sm border-0 p-3 text-center">
-            <h6 className="text-muted">📅 Ngày học</h6>
+            <h6 className="text-muted">Ngày học</h6>
             <h4 className="fw-bold">10/10/2025</h4>
           </div>
         </div>
@@ -57,7 +57,7 @@ export default function TrainerAttendance() {
 
       {/* Bảng điểm danh */}
       <div className="card shadow-sm border-0 p-4">
-        <h5 className="fw-bold mb-3">🧾 Danh sách điểm danh</h5>
+        <h5 className="fw-bold mb-3">Danh sách điểm danh</h5>
         <div className="table-responsive">
           <table className="table align-middle table-hover mb-0">
             <thead className="table-light">

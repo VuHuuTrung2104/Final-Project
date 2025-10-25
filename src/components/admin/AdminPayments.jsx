@@ -26,7 +26,7 @@ export default function AdminPayments() {
       {/* Header */}
       <div className="d-flex align-items-center justify-content-between mb-3">
         <div>
-          <h2 className="fw-bold text-success mb-1">💵 Quản lý Thanh toán</h2>
+          <h2 className="fw-bold text-success mb-1">Quản lý Thanh toán</h2>
           <p className="text-muted mb-0">
             Theo dõi, ghi nhận và xuất báo cáo các khoản thanh toán của học viên.
           </p>
@@ -35,7 +35,7 @@ export default function AdminPayments() {
 
       {/* Form ghi nhận thanh toán */}
       <div className="card shadow-sm border-0 p-4 mb-4">
-        <h5 className="fw-semibold text-success mb-3">🧾 Ghi nhận thanh toán</h5>
+        <h5 className="fw-semibold text-success mb-3">Ghi nhận thanh toán</h5>
         <form className="row g-3">
           <div className="col-md-4">
             <label className="form-label">Học viên</label>
@@ -74,7 +74,7 @@ export default function AdminPayments() {
 
           <div className="col-12 text-end">
             <button className="btn btn-success rounded-pill px-4">
-              💾 Lưu thanh toán
+              Lưu thanh toán
             </button>
           </div>
         </form>
@@ -84,7 +84,7 @@ export default function AdminPayments() {
       <div className="card shadow-sm border-0 p-3">
         <div className="d-flex justify-content-between align-items-center mb-2">
           <h5 className="fw-semibold text-success mb-0">
-            📅 Lịch sử thanh toán
+            Lịch sử thanh toán
           </h5>
           <button className="btn btn-outline-success btn-sm rounded-pill">
             <i className="bi bi-download me-1"></i> Xuất báo cáo

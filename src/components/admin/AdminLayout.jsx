@@ -10,7 +10,7 @@ export default function AdminLayout() {
       {/* SIDEBAR */}
       <aside className={`admin-sidebar ${collapsed ? "collapsed" : ""}`}>
         <div className="sidebar-header d-flex align-items-center justify-content-between px-2 mb-3">
-          {!collapsed && <h5 className="fw-bold mb-0">🧘‍♂️ Admin</h5>}
+          {!collapsed && <h5 className="fw-bold mb-0">Admin</h5>}
           <button
             className="btn btn-sm btn-outline-light"
             onClick={() => setCollapsed(!collapsed)}

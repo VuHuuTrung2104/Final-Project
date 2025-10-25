@@ -26,7 +26,7 @@ export default function AdminSchedule() {
       {/* Header */}
       <div className="d-flex align-items-center justify-content-between mb-3">
         <div>
-          <h2 className="fw-bold text-success mb-1">📅 Quản lý Lịch học</h2>
+          <h2 className="fw-bold text-success mb-1">Quản lý Lịch học</h2>
           <p className="text-muted mb-0">
             Theo dõi, chỉnh sửa và sắp xếp lịch học cho từng lớp và huấn luyện viên.
           </p>
@@ -42,7 +42,7 @@ export default function AdminSchedule() {
 
       {/* Thông báo hướng dẫn */}
       <div className="alert alert-info border-0 shadow-sm mb-4">
-        💡 <b>Mẹo:</b> Kiểm tra trùng lịch theo <b>Huấn luyện viên</b> và{" "}
+        <b>Mẹo:</b> Kiểm tra trùng lịch theo <b>Huấn luyện viên</b> và{" "}
         <b>Phòng học</b> để tránh xung đột thời gian.
       </div>
 
@@ -101,7 +101,7 @@ export default function AdminSchedule() {
         <div className="modal-dialog modal-dialog-centered">
           <div className="modal-content border-0 shadow">
             <div className="modal-header bg-success text-white">
-              <h5 className="modal-title fw-semibold">🗓️ Tạo / Sửa Lịch học</h5>
+              <h5 className="modal-title fw-semibold">Tạo / Sửa Lịch học</h5>
               <button
                 className="btn-close btn-close-white"
                 data-bs-dismiss="modal"

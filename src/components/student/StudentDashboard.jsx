@@ -34,7 +34,7 @@ export default function StudentDashboard() {
             Chào mừng, <span className="text-success">{student.name}</span>
           </h3>
           <p className="text-muted">
-            Theo dõi tiến trình luyện tập và sức khỏe của bạn 🪷
+            Theo dõi tiến trình luyện tập và sức khỏe của bạn
           </p>
         </div>
 
@@ -78,7 +78,7 @@ export default function StudentDashboard() {
         {/* Tiến trình học tập */}
         <div className="card shadow-sm border-0 p-4 mb-4">
           <div className="d-flex justify-content-between align-items-center mb-3">
-            <h5 className="fw-bold mb-0">📈 Tiến trình học tập</h5>
+            <h5 className="fw-bold mb-0">Tiến trình học tập</h5>
             <span className="badge bg-light text-success border">
               {percent}% hoàn thành
             </span>
@@ -99,14 +99,14 @@ export default function StudentDashboard() {
           </div>
 
           <div className="d-flex justify-content-between mt-3 small text-muted">
-            <span>🎯 Cấp độ hiện tại: <b>{student.level}</b></span>
-            <span>⏱️ Tổng thời gian: <b>{student.totalTime}</b></span>
+            <span>Cấp độ hiện tại: <b>{student.level}</b></span>
+            <span>Tổng thời gian: <b>{student.totalTime}</b></span>
           </div>
         </div>
 
         {/* Biểu đồ mô phỏng */}
         <div className="card shadow-sm border-0 p-4">
-          <h5 className="fw-bold mb-3">📊 Biểu đồ tiến trình luyện tập</h5>
+          <h5 className="fw-bold mb-3">Biểu đồ tiến trình luyện tập</h5>
           <div className="chart-placeholder text-center text-muted py-5">
             <i className="bi bi-graph-up"></i>
             <p className="mt-2">Biểu đồ luyện tập sẽ hiển thị tại đây (demo)</p>
@@ -117,7 +117,7 @@ export default function StudentDashboard() {
       {/* ==== PHẢI ==== */}
       <div className="dashboard-right">
         <div className="right-panel p-4 shadow-sm rounded bg-white">
-          <h6 className="fw-bold mb-3">📅 Lịch tháng 10/2025</h6>
+          <h6 className="fw-bold mb-3">Lịch tháng 10/2025</h6>
           <div className="calendar-grid mb-3">
             {days.map((d) => (
               <div
@@ -145,7 +145,7 @@ export default function StudentDashboard() {
           </ul>
 
           <div className="event-box mt-4 p-3 rounded shadow-sm text-center">
-            <h6 className="fw-bold mb-2">🌸 Workshop sắp tới</h6>
+            <h6 className="fw-bold mb-2">Workshop sắp tới</h6>
             <p className="small text-muted mb-3">
               Tham gia buổi “Yoga & Thiền sâu” để cân bằng năng lượng.
             </p>

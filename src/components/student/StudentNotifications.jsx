@@ -29,7 +29,7 @@ export default function StudentNotifications() {
   return (
     <div className="student-notifications card shadow-sm border-0 p-4">
       <div className="d-flex justify-content-between align-items-center mb-3">
-        <h5 className="fw-bold mb-0">🔔 Thông báo</h5>
+        <h5 className="fw-bold mb-0">Thông báo</h5>
         <button className="btn btn-outline-success btn-sm rounded-pill">
           Đánh dấu đã đọc
         </button>

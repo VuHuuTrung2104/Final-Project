@@ -7,9 +7,9 @@ export default function StudentPayments() {
       {/* Header */}
       <div className="d-flex justify-content-between align-items-center mb-4">
         <div>
-          <h2 className="fw-bold mb-1">💳 Thanh toán</h2>
+          <h2 className="fw-bold mb-1">Thanh toán</h2>
           <p className="text-muted mb-0">
-            Quản lý và theo dõi các khoản phí của bạn tại Harmonia Yoga 🧘‍♀️
+            Quản lý và theo dõi các khoản phí của bạn tại Harmonia Yoga
           </p>
         </div>
         <button className="btn btn-success rounded-pill px-3">
@@ -19,7 +19,7 @@ export default function StudentPayments() {
 
       {/* Form thanh toán */}
       <div className="card shadow-sm border-0 p-4 mb-4">
-        <h5 className="fw-bold mb-3">🪙 Nộp phí</h5>
+        <h5 className="fw-bold mb-3">Nộp phí</h5>
         <form className="row g-3">
           <div className="col-md-6">
             <label className="form-label">Khoản</label>
@@ -62,7 +62,7 @@ export default function StudentPayments() {
 
       {/* Lịch sử giao dịch */}
       <div className="card shadow-sm border-0 p-4">
-        <h5 className="fw-bold mb-3">🧾 Lịch sử giao dịch</h5>
+        <h5 className="fw-bold mb-3">Lịch sử giao dịch</h5>
         <div className="table-responsive">
           <table className="table align-middle table-hover">
             <thead className="table-light">

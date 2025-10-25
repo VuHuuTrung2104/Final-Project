@@ -33,9 +33,9 @@ export default function StudentCourses() {
     <div className="modern-courses container py-4">
       <div className="d-flex justify-content-between align-items-center mb-4">
         <div>
-          <h2 className="fw-bold">📚 Khóa học Yoga</h2>
+          <h2 className="fw-bold">Khóa học Yoga</h2>
           <p className="text-muted mb-0">
-            Chọn khóa học phù hợp với cấp độ và mục tiêu luyện tập của bạn 🧘‍♀️
+            Chọn khóa học phù hợp với cấp độ và mục tiêu luyện tập của bạn
           </p>
         </div>
         <button className="btn btn-success rounded-pill px-3">

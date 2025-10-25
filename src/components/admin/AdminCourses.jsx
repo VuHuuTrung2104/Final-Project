@@ -12,7 +12,7 @@ export default function AdminCourses() {
       {/* Header */}
       <div className="d-flex align-items-center justify-content-between mb-3">
         <div>
-          <h2 className="fw-bold text-success mb-1">📚 Quản lý Khóa học</h2>
+          <h2 className="fw-bold text-success mb-1">Quản lý Khóa học</h2>
           <p className="text-muted mb-0">Danh sách các khóa đang mở và có thể chỉnh sửa / thêm mới.</p>
         </div>
         <button

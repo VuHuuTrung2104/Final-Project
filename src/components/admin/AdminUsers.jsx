@@ -13,7 +13,7 @@ export default function AdminUsers() {
       {/* Header */}
       <div className="d-flex align-items-center justify-content-between mb-3">
         <div>
-          <h2 className="fw-bold text-success mb-1">👥 Quản lý người dùng</h2>
+          <h2 className="fw-bold text-success mb-1">Quản lý người dùng</h2>
           <p className="text-muted mb-0">Danh sách toàn bộ học viên, huấn luyện viên và quản trị viên.</p>
         </div>
         <button

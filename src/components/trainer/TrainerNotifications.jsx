@@ -35,13 +35,13 @@ export default function TrainerNotifications() {
       {/* Header */}
       <div className="d-flex justify-content-between align-items-center mb-4">
         <div>
-          <h2 className="fw-bold mb-1">🔔 Thông báo từ Admin</h2>
+          <h2 className="fw-bold mb-1">Thông báo từ Admin</h2>
           <p className="text-muted mb-0">
-            Cập nhật thông tin, thay đổi lịch và thông báo quan trọng cho huấn luyện viên 📢
+            Cập nhật thông tin, thay đổi lịch và thông báo quan trọng cho huấn luyện viên
           </p>
         </div>
         <button className="btn btn-success rounded-pill px-3">
-          ✅ Đánh dấu tất cả đã đọc
+          Đánh dấu tất cả đã đọc
         </button>
       </div>
 

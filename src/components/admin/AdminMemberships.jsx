@@ -12,7 +12,7 @@ export default function AdminMemberships() {
       {/* Header */}
       <div className="d-flex align-items-center justify-content-between mb-3">
         <div>
-          <h2 className="fw-bold text-success mb-1">🎫 Membership của Học viên</h2>
+          <h2 className="fw-bold text-success mb-1">Membership của Học viên</h2>
           <p className="text-muted mb-0">Quản lý các gói tập đã được gán cho học viên.</p>
         </div>
         <button
@@ -20,7 +20,7 @@ export default function AdminMemberships() {
           data-bs-toggle="modal"
           data-bs-target="#assignModal"
         >
-          ➕ Gán gói mới
+           Gán gói mới
         </button>
       </div>
 
@@ -91,7 +91,7 @@ export default function AdminMemberships() {
         <div className="modal-dialog modal-dialog-centered">
           <div className="modal-content border-0 shadow">
             <div className="modal-header bg-success text-white">
-              <h5 className="modal-title">🧾 Gán Membership</h5>
+              <h5 className="modal-title">Gán Membership</h5>
               <button
                 className="btn-close btn-close-white"
                 data-bs-dismiss="modal"

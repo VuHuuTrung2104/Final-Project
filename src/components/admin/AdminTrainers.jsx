@@ -12,7 +12,7 @@ export default function AdminTrainers() {
       {/* Header */}
       <div className="d-flex align-items-center justify-content-between mb-3">
         <div>
-          <h2 className="fw-bold text-success mb-1">🧑‍🏫 Quản lý Huấn luyện viên</h2>
+          <h2 className="fw-bold text-success mb-1">Quản lý Huấn luyện viên</h2>
           <p className="text-muted mb-0">Danh sách các HLV đang hoạt động tại trung tâm.</p>
         </div>
         <button

@@ -12,7 +12,7 @@ export default function AdminContent() {
       {/* Header */}
       <div className="d-flex align-items-center justify-content-between mb-3">
         <div>
-          <h2 className="fw-bold text-success mb-1">📰 Quản lý Nội dung (CMS)</h2>
+          <h2 className="fw-bold text-success mb-1">Quản lý Nội dung (CMS)</h2>
           <p className="text-muted mb-0">
             Thêm, chỉnh sửa và quản lý các bài viết hiển thị trên trang web Yoga.
           </p>
@@ -84,7 +84,7 @@ export default function AdminContent() {
           <div className="modal-content border-0 shadow">
             <div className="modal-header bg-success text-white">
               <h5 className="modal-title fw-semibold">
-                📝 Thêm / Sửa Bài Viết
+                Thêm / Sửa Bài Viết
               </h5>
               <button
                 className="btn-close btn-close-white"

@@ -32,9 +32,9 @@ export default function StudentSchedule() {
     <div className="modern-schedule container py-4">
       <div className="d-flex justify-content-between align-items-center mb-4">
         <div>
-          <h2 className="fw-bold mb-1">📅 Lịch học cá nhân</h2>
+          <h2 className="fw-bold mb-1">Lịch học cá nhân</h2>
           <p className="text-muted mb-0">
-            Theo dõi các buổi học bạn đã đăng ký và sắp diễn ra 🧘‍♀️
+            Theo dõi các buổi học bạn đã đăng ký và sắp diễn ra
           </p>
         </div>
         <button className="btn btn-success rounded-pill px-3">
@@ -97,7 +97,7 @@ export default function StudentSchedule() {
 
       {/* Lịch tổng quan tháng */}
       <div className="calendar-section card shadow-sm border-0 p-3 mt-4">
-        <h5 className="fw-bold mb-3">🗓️ Lịch tổng quan tháng 10/2025</h5>
+        <h5 className="fw-bold mb-3">Lịch tổng quan tháng 10/2025</h5>
         <div className="calendar-grid">
           {Array.from({ length: 30 }, (_, i) => i + 1).map((d) => {
             const isToday = d === todayDate;

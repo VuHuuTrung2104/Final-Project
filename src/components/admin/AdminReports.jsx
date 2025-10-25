@@ -7,7 +7,7 @@ export default function AdminReports() {
       {/* Header */}
       <div className="d-flex align-items-center justify-content-between mb-3">
         <div>
-          <h2 className="fw-bold text-success mb-1">📊 Báo cáo & Thống kê</h2>
+          <h2 className="fw-bold text-success mb-1">Báo cáo & Thống kê</h2>
           <p className="text-muted mb-0">
             Tổng quan tình hình hoạt động, doanh thu và học viên trong tháng.
           </p>
@@ -22,7 +22,7 @@ export default function AdminReports() {
         <div className="col-lg-6">
           <div className="card shadow-sm border-0 p-3 h-100">
             <h5 className="fw-semibold text-success mb-2">
-              💰 Doanh thu theo tháng
+              Doanh thu theo tháng
             </h5>
             <div className="chart-placeholder bg-light rounded p-5 text-center text-muted">
               [Biểu đồ doanh thu]
@@ -32,7 +32,7 @@ export default function AdminReports() {
         <div className="col-lg-6">
           <div className="card shadow-sm border-0 p-3 h-100">
             <h5 className="fw-semibold text-success mb-2">
-              👥 Học viên theo tháng
+              Học viên theo tháng
             </h5>
             <div className="chart-placeholder bg-light rounded p-5 text-center text-muted">
               [Biểu đồ học viên]
@@ -43,12 +43,12 @@ export default function AdminReports() {
 
       {/* Summary Table */}
       <div className="card shadow-sm border-0 p-3 mt-4">
-        <h5 className="fw-semibold text-success mb-3">📈 Báo cáo tổng hợp</h5>
+        <h5 className="fw-semibold text-success mb-3">Báo cáo tổng hợp</h5>
         <div className="table-responsive">
           <table className="table align-middle table-hover mb-0">
             <thead className="table-light">
               <tr>
-                <th>📋 Chỉ số</th>
+                <th>Chỉ số</th>
                 <th>Tháng này</th>
                 <th>So với tháng trước</th>
               </tr>

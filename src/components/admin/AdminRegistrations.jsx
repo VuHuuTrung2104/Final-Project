@@ -24,13 +24,13 @@ export default function AdminRegistrations() {
       {/* Header */}
       <div className="d-flex align-items-center justify-content-between mb-3">
         <div>
-          <h2 className="fw-bold text-success mb-1">📝 Quản lý Đăng ký học</h2>
+          <h2 className="fw-bold text-success mb-1">Quản lý Đăng ký học</h2>
           <p className="text-muted mb-0">
             Theo dõi trạng thái đăng ký và cập nhật nhanh cho học viên.
           </p>
         </div>
         <button className="btn btn-success rounded-pill px-3">
-          ➕ Thêm đăng ký
+          Thêm đăng ký
         </button>
       </div>
 

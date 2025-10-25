@@ -12,7 +12,7 @@ export default function AdminFeedback() {
       {/* Header */}
       <div className="d-flex align-items-center justify-content-between mb-3">
         <div>
-          <h2 className="fw-bold text-success mb-1">💬 Quản lý Feedback</h2>
+          <h2 className="fw-bold text-success mb-1">Quản lý Feedback</h2>
           <p className="text-muted mb-0">Theo dõi và phản hồi ý kiến từ học viên.</p>
         </div>
       </div>
@@ -85,7 +85,7 @@ export default function AdminFeedback() {
         <div className="modal-dialog modal-dialog-centered">
           <div className="modal-content border-0 shadow">
             <div className="modal-header bg-success text-white">
-              <h5 className="modal-title">💬 Chi tiết Feedback</h5>
+              <h5 className="modal-title">Chi tiết Feedback</h5>
               <button
                 className="btn-close btn-close-white"
                 data-bs-dismiss="modal"

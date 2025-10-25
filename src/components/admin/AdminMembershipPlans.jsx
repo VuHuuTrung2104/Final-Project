@@ -12,7 +12,7 @@ export default function AdminMembershipPlans() {
       {/* Header */}
       <div className="d-flex align-items-center justify-content-between mb-3">
         <div>
-          <h2 className="fw-bold text-success mb-1">🎟️ Quản lý Gói tập</h2>
+          <h2 className="fw-bold text-success mb-1">Quản lý Gói tập</h2>
           <p className="text-muted mb-0">Thêm, sửa hoặc xóa các gói tập của học viên.</p>
         </div>
         <button
@@ -20,7 +20,7 @@ export default function AdminMembershipPlans() {
           data-bs-toggle="modal"
           data-bs-target="#planModal"
         >
-          ➕ Thêm Gói
+          Thêm Gói
         </button>
       </div>
 
@@ -66,7 +66,7 @@ export default function AdminMembershipPlans() {
         <div className="modal-dialog modal-dialog-centered">
           <div className="modal-content border-0 shadow">
             <div className="modal-header bg-success text-white">
-              <h5 className="modal-title">📝 Thêm / Chỉnh sửa Gói tập</h5>
+              <h5 className="modal-title">Thêm / Chỉnh sửa Gói tập</h5>
               <button
                 className="btn-close btn-close-white"
                 data-bs-dismiss="modal"

@@ -21,7 +21,7 @@ export default function TrainerDashboard() {
 
   return (
     <div className="trainer-dashboard container-fluid py-4 ">
-      <h2 className="fw-bold mb-4">🧘 Bảng điều khiển Huấn luyện viên</h2>
+      <h2 className="fw-bold mb-4">Bảng điều khiển Huấn luyện viên</h2>
 
       <div className="row g-4">
         {/* Cột trái: Hồ sơ + thống kê */}
@@ -49,7 +49,7 @@ export default function TrainerDashboard() {
               </li>
             </ul>
             <button className="btn btn-outline-success rounded-pill w-100">
-              ✏️ Chỉnh sửa hồ sơ
+              Chỉnh sửa hồ sơ
             </button>
           </div>
 
@@ -74,7 +74,7 @@ export default function TrainerDashboard() {
         {/* Cột phải: Lịch dạy */}
         <div className="col-lg-8">
           <div className="card shadow-sm border-0 p-4 h-100">
-            <h5 className="fw-bold mb-3">📅 Lịch dạy trong tuần</h5>
+            <h5 className="fw-bold mb-3">Lịch dạy trong tuần</h5>
             <div className="table-responsive">
               <table className="table align-middle table-hover mb-0">
                 <thead className="table-light">

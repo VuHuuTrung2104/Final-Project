@@ -22,7 +22,7 @@ export default function StudentCourseDetail() {
       {/* Header */}
       <div className="d-flex justify-content-between align-items-center mb-4">
         <div>
-          <h2 className="fw-bold">{course.name} 🧘‍♀️</h2>
+          <h2 className="fw-bold">{course.name}</h2>
           <p className="text-muted mb-0">
             Cùng khám phá hành trình cân bằng thân - tâm - trí.
           </p>
@@ -38,7 +38,7 @@ export default function StudentCourseDetail() {
           <div className="card shadow-sm border-0 overflow-hidden">
             <img src={course.img} alt={course.name} className="course-banner" />
             <div className="card-body p-4">
-              <h5 className="fw-bold mb-2">📖 Mô tả khóa học</h5>
+              <h5 className="fw-bold mb-2">Mô tả khóa học</h5>
               <p className="text-muted mb-3">{course.desc}</p>
 
               <div className="d-flex flex-wrap gap-3 mb-3">
@@ -69,7 +69,7 @@ export default function StudentCourseDetail() {
 
           {/* Lịch học */}
           <div className="card shadow-sm p-3 mt-4">
-            <h5 className="fw-bold mb-3">📅 Lịch học sắp tới</h5>
+            <h5 className="fw-bold mb-3">Lịch học sắp tới</h5>
             <div className="table-responsive">
               <table className="table table-hover align-middle">
                 <thead className="table-light">
@@ -104,7 +104,7 @@ export default function StudentCourseDetail() {
         {/* Phải: thông tin nhanh */}
         <div className="col-lg-4">
           <div className="card shadow-sm p-3 bg-white border-0 rounded">
-            <h6 className="fw-bold mb-2">⚡ Thông tin nhanh</h6>
+            <h6 className="fw-bold mb-2">Thông tin nhanh</h6>
             <ul className="list-group list-group-flush">
               <li className="list-group-item d-flex justify-content-between px-0">
                 <span>Trình độ</span> <b>{course.level}</b>

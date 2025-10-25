@@ -40,7 +40,7 @@ export default function TrainerSchedule() {
     <div className="trainer-schedule container-fluid py-4">
       <div className="d-flex justify-content-between align-items-center mb-4">
         <div>
-          <h2 className="fw-bold mb-1">📅 Lịch dạy của bạn</h2>
+          <h2 className="fw-bold mb-1">Lịch dạy của bạn</h2>
           <p className="text-muted mb-0">
             Quản lý, cập nhật và theo dõi lịch giảng dạy của bạn trong tuần này.
           </p>
@@ -51,7 +51,7 @@ export default function TrainerSchedule() {
       </div>
 
       <div className="card shadow-sm border-0 p-4">
-        <h5 className="fw-bold mb-3">🧘 Danh sách buổi dạy</h5>
+        <h5 className="fw-bold mb-3">Danh sách buổi dạy</h5>
         <div className="table-responsive">
           <table className="table table-hover align-middle mb-0">
             <thead className="table-light">
@@ -97,7 +97,7 @@ export default function TrainerSchedule() {
 
       {/* Lịch tháng tổng quan */}
       <div className="calendar-section card shadow-sm border-0 p-4 mt-4">
-        <h5 className="fw-bold mb-3">🗓️ Lịch tổng quan tháng 10/2025</h5>
+        <h5 className="fw-bold mb-3">Lịch tổng quan tháng 10/2025</h5>
         <div className="calendar-grid">
           {Array.from({ length: 31 }, (_, i) => i + 1).map((d) => {
             const isTeachingDay = [4, 10, 20, 22, 24].includes(d);

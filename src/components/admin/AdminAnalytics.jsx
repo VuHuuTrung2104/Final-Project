@@ -6,7 +6,7 @@ export default function AdminAnalytics() {
     <div className="admin-analytics container-fluid py-4">
       {/* Header */}
       <div className="mb-4">
-        <h2 className="fw-bold text-success mb-1">📊 Thống kê nâng cao</h2>
+        <h2 className="fw-bold text-success mb-1">Thống kê nâng cao</h2>
         <p className="text-muted mb-0">Tổng hợp dữ liệu về học viên, huấn luyện viên, doanh thu và hoạt động.</p>
       </div>
 
@@ -14,21 +14,21 @@ export default function AdminAnalytics() {
       <div className="row g-3 mb-4">
         <div className="col-md-4">
           <div className="card analytics-card shadow-sm border-0 p-3 text-center">
-            <h6 className="text-secondary">👥 Tổng học viên</h6>
+            <h6 className="text-secondary">Tổng học viên</h6>
             <p className="fw-bold fs-4 text-primary mb-0">250</p>
             <small className="text-muted">+15 trong tháng này</small>
           </div>
         </div>
         <div className="col-md-4">
           <div className="card analytics-card shadow-sm border-0 p-3 text-center">
-            <h6 className="text-secondary">🧘 Huấn luyện viên</h6>
+            <h6 className="text-secondary">Huấn luyện viên</h6>
             <p className="fw-bold fs-4 text-success mb-0">12</p>
             <small className="text-muted">+2 huấn luyện viên mới</small>
           </div>
         </div>
         <div className="col-md-4">
           <div className="card analytics-card shadow-sm border-0 p-3 text-center">
-            <h6 className="text-secondary">💰 Doanh thu tháng</h6>
+            <h6 className="text-secondary">Doanh thu tháng</h6>
             <p className="fw-bold fs-4 text-danger mb-0">150.000.000đ</p>
             <small className="text-muted">↑ 10% so với tháng trước</small>
           </div>
@@ -39,7 +39,7 @@ export default function AdminAnalytics() {
       <div className="row g-3">
         <div className="col-lg-8">
           <div className="card shadow-sm border-0 p-3 h-100">
-            <h5 className="fw-bold mb-3">📈 Biểu đồ doanh thu (Mock)</h5>
+            <h5 className="fw-bold mb-3">Biểu đồ doanh thu (Mock)</h5>
             <div className="chart-placeholder d-flex align-items-center justify-content-center text-muted bg-light rounded">
               [Biểu đồ Placeholder]
             </div>
@@ -48,7 +48,7 @@ export default function AdminAnalytics() {
 
         <div className="col-lg-4">
           <div className="card shadow-sm border-0 p-3 h-100">
-            <h5 className="fw-bold mb-3">📅 Tiến độ hoạt động</h5>
+            <h5 className="fw-bold mb-3">Tiến độ hoạt động</h5>
 
             <div className="mb-3">
               <p className="mb-1 text-secondary">Doanh thu</p>

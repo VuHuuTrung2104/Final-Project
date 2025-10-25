@@ -23,7 +23,7 @@ export default function TrainerClass() {
       {/* Header */}
       <div className="d-flex justify-content-between align-items-center mb-4">
         <div>
-          <h2 className="fw-bold mb-1">👥 Quản lý lớp học</h2>
+          <h2 className="fw-bold mb-1">Quản lý lớp học</h2>
           <p className="text-muted mb-0">
             Theo dõi danh sách học viên và điểm danh buổi học hiện tại 🧘‍♀️
           </p>
@@ -35,7 +35,7 @@ export default function TrainerClass() {
 
       {/* Thông tin lớp */}
       <div className="card shadow-sm border-0 p-4 mb-4">
-        <h5 className="fw-bold mb-3">📘 Thông tin lớp học</h5>
+        <h5 className="fw-bold mb-3">Thông tin lớp học</h5>
         <div className="row small text-muted">
           <div className="col-md-6">
             <p><b>Tên lớp:</b> {classInfo.name}</p>
@@ -52,7 +52,7 @@ export default function TrainerClass() {
 
       {/* Bảng học viên */}
       <div className="card shadow-sm border-0 p-4">
-        <h5 className="fw-bold mb-3">👩‍🎓 Danh sách học viên</h5>
+        <h5 className="fw-bold mb-3">Danh sách học viên</h5>
         <div className="table-responsive">
           <table className="table align-middle table-hover mb-0">
             <thead className="table-light">
@@ -94,7 +94,7 @@ export default function TrainerClass() {
 
         <div className="text-end mt-3">
           <button className="btn btn-success rounded-pill px-4">
-            💾 Lưu điểm danh
+            Lưu điểm danh
           </button>
         </div>
       </div>

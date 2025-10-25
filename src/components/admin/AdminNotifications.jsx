@@ -24,7 +24,7 @@ export default function AdminNotifications() {
       {/* Header */}
       <div className="d-flex align-items-center justify-content-between mb-3">
         <div>
-          <h2 className="fw-bold text-success mb-1">🔔 Quản lý Thông báo</h2>
+          <h2 className="fw-bold text-success mb-1">Quản lý Thông báo</h2>
           <p className="text-muted mb-0">
             Gửi thông báo đến học viên và huấn luyện viên.
           </p>
@@ -34,7 +34,7 @@ export default function AdminNotifications() {
           data-bs-toggle="modal"
           data-bs-target="#createNoticeModal"
         >
-          ➕ Tạo thông báo mới
+          Tạo thông báo mới
         </button>
       </div>
 
@@ -97,7 +97,7 @@ export default function AdminNotifications() {
         <div className="modal-dialog modal-dialog-centered">
           <div className="modal-content border-0 shadow">
             <div className="modal-header bg-success text-white">
-              <h5 className="modal-title">📝 Tạo thông báo mới</h5>
+              <h5 className="modal-title">Tạo thông báo mới</h5>
               <button
                 className="btn-close btn-close-white"
                 data-bs-dismiss="modal"

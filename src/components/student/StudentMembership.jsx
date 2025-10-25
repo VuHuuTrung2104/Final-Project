@@ -7,9 +7,9 @@ export default function StudentMembership() {
       {/* Header */}
       <div className="d-flex justify-content-between align-items-center mb-4">
         <div>
-          <h2 className="fw-bold mb-1">🎫 Membership</h2>
+          <h2 className="fw-bold mb-1">Membership</h2>
           <p className="text-muted mb-0">
-            Quản lý gói tập và lịch sử thanh toán của bạn 🧘‍♀️
+            Quản lý gói tập và lịch sử thanh toán của bạn
           </p>
         </div>
         <button className="btn btn-success rounded-pill px-3">
@@ -21,7 +21,7 @@ export default function StudentMembership() {
         {/* Gói hiện tại */}
         <div className="col-lg-6">
           <div className="card shadow-sm border-0 p-4 current-package">
-            <h5 className="fw-bold mb-3">🌿 Gói hiện tại</h5>
+            <h5 className="fw-bold mb-3">Gói hiện tại</h5>
             <p className="mb-1">
               <b>Tên gói:</b> Yoga Cơ bản (1 tháng)
             </p>
@@ -48,7 +48,7 @@ export default function StudentMembership() {
         {/* Thanh toán */}
         <div className="col-lg-6">
           <div className="card shadow-sm border-0 p-4">
-            <h5 className="fw-bold mb-3">💳 Thanh toán</h5>
+            <h5 className="fw-bold mb-3">Thanh toán</h5>
             <form className="row g-3">
               <div className="col-md-6">
                 <label className="form-label">Khoản</label>
@@ -89,7 +89,7 @@ export default function StudentMembership() {
 
       {/* Lịch sử giao dịch */}
       <div className="card shadow-sm border-0 p-4 mt-4">
-        <h5 className="fw-bold mb-3">🧾 Lịch sử giao dịch</h5>
+        <h5 className="fw-bold mb-3">Lịch sử giao dịch</h5>
         <div className="table-responsive">
           <table className="table align-middle table-hover">
             <thead className="table-light">

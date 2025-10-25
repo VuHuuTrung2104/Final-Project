@@ -13,7 +13,7 @@ export default function AdminRoles() {
       {/* Header */}
       <div className="d-flex align-items-center justify-content-between mb-3">
         <div>
-          <h2 className="fw-bold text-success mb-1">🛡️ Quản lý Phân quyền</h2>
+          <h2 className="fw-bold text-success mb-1">Quản lý Phân quyền</h2>
           <p className="text-muted mb-0">
             Quản lý vai trò và quyền truy cập của người dùng trong hệ thống.
           </p>
